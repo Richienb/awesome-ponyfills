@@ -8,12 +8,13 @@ project you agree to abide by its terms.
 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- The package must support ponyfilling.
+- Your additions should be added to the bottom of the correct categories.
+- The links must work completely.
+- The package must be popular with at least ~1k weekly downloads unless exempted.
+- Each entry must follow this template: ``[pkg-name](repo-url) - [`api-name`](api-docs-url)``
 
 Thank you for your suggestions!
-
 
 ## Updating your PR
 
