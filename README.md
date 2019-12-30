@@ -7,7 +7,7 @@
   <p>A curated list of awesome ponyfills for writing cross-platform and cross-browser code.</p>
 </div>
 
-Use these modules when looking to support older node versions without polluting the prototype. See [ponyfill.com](https://ponyfill.com) for more info.
+Use these modules when looking to support older browsers or node versions without polluting the prototype. See [ponyfill.com](https://ponyfill.com) for more info.
 
 ## Contents
 
