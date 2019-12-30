@@ -12,7 +12,12 @@ Use these modules when looking to support older browsers or node versions withou
 ## Contents
 
 - [Cross-platform](#cross-platform)
-  - [ECMAScript Features](#ecmascript-features)
+  - [Main](#main)
+  - [Uncategorised](#uncategorised)
+  - [Numbers](#numbers)
+  - [Strings](#strings)
+  - [Objects](#objects)
+  - [Arrays](#arrays)
   - [Browser Features](#browser-features)
   - [Node.js Features](#nodejs-features)
 - [Browser Environment Only](#browser-environment-only)
@@ -21,26 +26,49 @@ Use these modules when looking to support older browsers or node versions withou
 
 ## Cross-platform
 
-### ECMAScript Features
+### Main
 
 - ⭐️ [core-js-pure](https://github.com/zloirock/core-js) - The entire standard library.
-- [array-from](https://github.com/studio-b12/array-from) - [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+
+### Uncategorised
+
 - [es6-promise](https://github.com/stefanpenner/es6-promise) - [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [es6-map](https://github.com/medikoo/es6-map) - [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - [es6-set](https://github.com/medikoo/es6-set) - [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 - [es6-symbol](https://github.com/medikoo/es6-symbol) - [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
-- [array-map](https://github.com/substack/array-map) - [`Array.prototype.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-- [array-foreach](https://github.com/twada/array-foreach) - [`Array.prototype.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-- [object-assign](https://github.com/sindresorhus/object-assign) - [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
-- [indexof](https://github.com/component/indexof) - [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) and [`String.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf).
-- [array.prototype.flatmap](https://github.com/es-shims/Array.prototype.flatMap) - [`Array.prototype.flatMap`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
-- [object-keys](https://github.com/ljharb/object-keys) - [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-- [array-includes](https://github.com/es-shims/array-includes) - [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
-- [object.fromentries](https://github.com/es-shims/Object.fromEntries) - [`Object.fromEntries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
+- [named-regexp-groups](https://github.com/commenthol/named-regexp-groups) - [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+
+### Numbers
+
+- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - [`BigInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
+- [is-nan](https://github.com/es-shims/is-nan) - [`Number.isNaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)
+
+### Strings
+
+- [indexof](https://github.com/component/indexof) - [`String.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 - [string.prototype.trim](https://github.com/es-shims/String.prototype.trim) - [`String.prototype.trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
 - [string.prototype.trimleft](https://github.com/es-shims/String.prototype.trimleft) - [`String.prototype.trimStart`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimStart)
 - [string.prototype.trimright](https://github.com/es-shims/String.prototype.trimright) - [`String.prototype.trimEnd`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimEnd)
-- [console.table](https://github.com/bahmutov/console.table) - [`console.table`](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
+
+### Objects
+
+- [object.fromentries](https://github.com/es-shims/Object.fromEntries) - [`Object.fromEntries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
+- [object.entries](https://github.com/es-shims/Object.entries) - [`Object.entries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+- [object-keys](https://github.com/ljharb/object-keys) - [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+- [object.values](https://github.com/es-shims/Object.values) - [`Object.values`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+- [object-assign](https://github.com/sindresorhus/object-assign) - [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+### Arrays
+
+- [array-from](https://github.com/studio-b12/array-from) - [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- [array.prototype.every](https://github.com/es-shims/Array.prototype.every) - [`Array.prototype.every`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+- [array.prototype.find](https://github.com/paulmillr/Array.prototype.find) - [`Array.prototype.find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+- [array.prototype.some](https://github.com/es-shims/Array.prototype.some) - [`Array.prototype.some`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+- [array.prototype.flatmap](https://github.com/es-shims/Array.prototype.flatMap) - [`Array.prototype.flatMap`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
+- [array-map](https://github.com/substack/array-map) - [`Array.prototype.map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [array-foreach](https://github.com/twada/array-foreach) - [`Array.prototype.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [array-includes](https://github.com/es-shims/array-includes) - [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- [indexof](https://github.com/component/indexof) - [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf).
 
 ### Browser Features
 
@@ -50,6 +78,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [abortcontroller-polyfill](https://github.com/mo/abortcontroller-polyfill) - [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 - [@fastly/performance-observer-polyfill](https://github.com/fastly/performance-observer-polyfill) - [`PerformanceObserver`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver)
 - [performance-now](https://github.com/braveg1rl/performance-now) - [`performance.now`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now)
+- [console.table](https://github.com/bahmutov/console.table) - [`console.table`](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
 
 ### Node.js Features
 
