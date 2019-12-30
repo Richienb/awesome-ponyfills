@@ -11,7 +11,7 @@ Ensure your pull request adheres to the following guidelines:
 - The package must support ponyfilling.
 - Your additions should be added to the bottom of the correct categories.
 - The links must work completely.
-- The package must be popular with at least ~1k weekly downloads unless exempted.
+- The package must be popular with at least ~1k weekly downloads unless we can trust the developer or is exempted.
 - Each entry must follow this template: ``[pkg-name](repo-url) - [`api-name`](api-docs-url)``
 
 Thank you for your suggestions!
