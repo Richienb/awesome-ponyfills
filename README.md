@@ -7,6 +7,8 @@
   <p>A curated list of awesome ponyfills for writing cross-platform and cross-browser code.</p>
 </div>
 
+Use these modules when looking to support older node versions without polluting the prototype. See [ponyfill.com](https://ponyfill.com) for more info.
+
 ## Contents
 
 - [Cross-platform](#cross-platform)
@@ -21,8 +23,8 @@
 
 ### ECMAScript features
 
-- ⭐️ [core-js](https://github.com/zloirock/core-js) - The entire standard library.
-- [array-from](https://www.npmjs.com/package/array-from) - [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+- ⭐️ [core-js-pure](https://github.com/zloirock/core-js) - The entire standard library.
+- [array-from](https://github.com/studio-b12/array-from) - [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 - [es6-promise](https://github.com/stefanpenner/es6-promise) - [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [es6-map](https://github.com/medikoo/es6-map) - [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 - [es6-set](https://github.com/medikoo/es6-set) - [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
@@ -30,6 +32,10 @@
 - [array-foreach](https://github.com/twada/array-foreach) - [`Array.prototype.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [object-assign](https://github.com/sindresorhus/object-assign) - [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
 - [indexof](https://github.com/component/indexof) - [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) and [`String.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf).
+- [array.prototype.flatmap](https://github.com/es-shims/Array.prototype.flatMap) - [`Array.prototype.flatMap`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
+- [object-keys](https://github.com/ljharb/object-keys) - [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+- [array-includes](https://github.com/es-shims/array-includes) - [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- [object.fromentries](https://github.com/es-shims/Object.fromEntries) - [`Object.fromEntries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
 
 ### Browser features
 
