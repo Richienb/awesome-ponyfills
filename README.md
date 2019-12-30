@@ -9,11 +9,10 @@
 
 ## Contents
 
-- [Contents](#contents)
 - [Cross-platform](#cross-platform)
   - [ECMAScript features](#ecmascript-features)
   - [Browser features](#browser-features)
-  - [NodeJS features](#nodejs-features)
+  - [Node.js features](#nodejs-features)
 - [Browser environment only](#browser-environment-only)
   - [JavaScript features](#javascript-features)
   - [Other](#other)
@@ -34,12 +33,12 @@
 
 ### Browser features
 
-- [cross-fetch](https://github.com/bitinn/cross-fetch)  - [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [cross-fetch](https://github.com/lquixada/cross-fetch) - [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [cross-blob](https://github.com/Richienb/cross-blob) - [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
 - [cross-formdata](https://github.com/Richienb/cross-formdata) - [`FormData`](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
 - [abortcontroller-polyfill](https://github.com/mo/abortcontroller-polyfill) - [`AbortController`](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
 
-### NodeJS features
+### Node.js features
 
 - [events](https://github.com/Gozala/events) - [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter)
 - [tickedoff](https://github.com/jamiebuilds/tickedoff) - [`setImmediate`](https://nodejs.org/api/timers.html#timers_setimmediate_callback_args)
