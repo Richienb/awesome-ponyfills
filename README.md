@@ -34,9 +34,11 @@ Use these modules when looking to support older browsers or node versions withou
 
 - [es6-promise](https://github.com/stefanpenner/es6-promise) - [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [es6-map](https://github.com/medikoo/es6-map) - [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+- [es6-weak-map](https://github.com/medikoo/es6-weak-map) - [`WeakMap`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap)
 - [es6-set](https://github.com/medikoo/es6-set) - [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 - [es6-symbol](https://github.com/medikoo/es6-symbol) - [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 - [named-regexp-groups](https://github.com/commenthol/named-regexp-groups) - [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+- [globalthis](https://github.com/ljharb/System.global) - [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
 
 ### Numbers
 
@@ -49,6 +51,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [string.prototype.trim](https://github.com/es-shims/String.prototype.trim) - [`String.prototype.trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
 - [string.prototype.trimleft](https://github.com/es-shims/String.prototype.trimleft) - [`String.prototype.trimStart`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimStart)
 - [string.prototype.trimright](https://github.com/es-shims/String.prototype.trimright) - [`String.prototype.trimEnd`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimEnd)
+- [string.prototype.replaceall](https://www.npmjs.com/package/string.prototype.replaceall) - [`String.prototype.replaceAll`](https://github.com/tc39/proposal-string-replaceall)
 
 ### Objects
 
@@ -57,6 +60,8 @@ Use these modules when looking to support older browsers or node versions withou
 - [object-keys](https://github.com/ljharb/object-keys) - [`Object.keys`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 - [object.values](https://github.com/es-shims/Object.values) - [`Object.values`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
 - [object-assign](https://github.com/sindresorhus/object-assign) - [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+- [object-is](https://github.com/es-shims/object-is) - [`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
+- [json3](https://github.com/bestiejs/json3) - [`JSON`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 ### Arrays
 
