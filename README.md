@@ -51,7 +51,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [string.prototype.trim](https://github.com/es-shims/String.prototype.trim) - [`String.prototype.trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
 - [string.prototype.trimleft](https://github.com/es-shims/String.prototype.trimleft) - [`String.prototype.trimStart`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimStart)
 - [string.prototype.trimright](https://github.com/es-shims/String.prototype.trimright) - [`String.prototype.trimEnd`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimEnd)
-- [string.prototype.replaceall](https://www.npmjs.com/package/string.prototype.replaceall) - [`String.prototype.replaceAll`](https://github.com/tc39/proposal-string-replaceall)
+- [string.prototype.replaceall](https://github.com/es-shims/String.prototype.replaceAll) - [`String.prototype.replaceAll`](https://github.com/tc39/proposal-string-replaceall)
 
 ### Objects
 
