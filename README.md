@@ -39,6 +39,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [es6-symbol](https://github.com/medikoo/es6-symbol) - [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 - [named-regexp-groups](https://github.com/commenthol/named-regexp-groups) - [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 - [globalthis](https://github.com/ljharb/System.global) - [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
+- [webbluetooth](https://github.com/thegecko/webbluetooth) - [`Bluetooth`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
 
 ### Numbers
 
