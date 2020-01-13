@@ -11,26 +11,20 @@ Use these modules when looking to support older browsers or node versions withou
 
 ## Contents
 
-- [Cross-platform](#cross-platform)
-  - [Main](#main)
-  - [Uncategorised](#uncategorised)
-  - [Numbers](#numbers)
-  - [Strings](#strings)
-  - [Objects](#objects)
-  - [Arrays](#arrays)
-  - [Browser Features](#browser-features)
-  - [Node.js Features](#nodejs-features)
-- [Browser Environment Only](#browser-environment-only)
-  - [JavaScript Features](#javascript-features)
-  - [Other](#other)
+- [Main](#main)
+- [Uncategorised](#uncategorised)
+- [Numbers](#numbers)
+- [Strings](#strings)
+- [Objects](#objects)
+- [Arrays](#arrays)
+- [Browser Features](#browser-features)
+- [Node.js Features](#nodejs-features)
 
-## Cross-platform
-
-### Main
+## Main
 
 - ⭐️ [core-js-pure](https://github.com/zloirock/core-js) - The entire standard library.
 
-### Uncategorised
+## Uncategorised
 
 - [es6-promise](https://github.com/stefanpenner/es6-promise) - [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [es6-map](https://github.com/medikoo/es6-map) - [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
@@ -39,14 +33,13 @@ Use these modules when looking to support older browsers or node versions withou
 - [es6-symbol](https://github.com/medikoo/es6-symbol) - [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 - [named-regexp-groups](https://github.com/commenthol/named-regexp-groups) - [`RegExp`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 - [globalthis](https://github.com/ljharb/System.global) - [`globalThis`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis)
-- [webbluetooth](https://github.com/thegecko/webbluetooth) - [`Bluetooth`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
 
-### Numbers
+## Numbers
 
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) - [`BigInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
 - [is-nan](https://github.com/es-shims/is-nan) - [`Number.isNaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)
 
-### Strings
+## Strings
 
 - [indexof](https://github.com/component/indexof) - [`String.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 - [string.prototype.trim](https://github.com/es-shims/String.prototype.trim) - [`String.prototype.trim`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim)
@@ -54,7 +47,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [string.prototype.trimright](https://github.com/es-shims/String.prototype.trimright) - [`String.prototype.trimEnd`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/TrimEnd)
 - [string.prototype.replaceall](https://github.com/es-shims/String.prototype.replaceAll) - [`String.prototype.replaceAll`](https://github.com/tc39/proposal-string-replaceall)
 
-### Objects
+## Objects
 
 - [object.fromentries](https://github.com/es-shims/Object.fromEntries) - [`Object.fromEntries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
 - [object.entries](https://github.com/es-shims/Object.entries) - [`Object.entries`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
@@ -64,7 +57,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [object-is](https://github.com/es-shims/object-is) - [`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
 - [json3](https://github.com/bestiejs/json3) - [`JSON`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-### Arrays
+## Arrays
 
 - [array-from](https://github.com/studio-b12/array-from) - [`Array.from`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 - [array.prototype.every](https://github.com/es-shims/Array.prototype.every) - [`Array.prototype.every`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
@@ -76,7 +69,7 @@ Use these modules when looking to support older browsers or node versions withou
 - [array-includes](https://github.com/es-shims/array-includes) - [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - [indexof](https://github.com/component/indexof) - [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf).
 
-### Browser Features
+## Browser Features
 
 - [cross-fetch](https://github.com/lquixada/cross-fetch) - [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [cross-blob](https://github.com/Richienb/cross-blob) - [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob)
@@ -85,21 +78,14 @@ Use these modules when looking to support older browsers or node versions withou
 - [@fastly/performance-observer-polyfill](https://github.com/fastly/performance-observer-polyfill) - [`PerformanceObserver`](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver)
 - [performance-now](https://github.com/braveg1rl/performance-now) - [`performance.now`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now)
 - [console.table](https://github.com/bahmutov/console.table) - [`console.table`](https://developer.mozilla.org/en-US/docs/Web/API/Console/table)
+- [webbluetooth](https://github.com/thegecko/webbluetooth) - [`Bluetooth`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
+- [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
+- [webcrypto-shim](https://github.com/vibornoff/webcrypto-shim) - [`crypto`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
+- [css-vars-ponyfill](https://github.com/jhildenbiddle/css-vars-ponyfill/) - [CSS variables/custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
-### Node.js Features
+## Node.js Features
 
 - [events](https://github.com/Gozala/events) - [`EventEmitter`](https://nodejs.org/api/events.html#events_class_eventemitter)
 - [tickedoff](https://github.com/jamiebuilds/tickedoff) - [`setImmediate`](https://nodejs.org/api/timers.html#timers_setimmediate_callback_args)
 - [buffer-from](https://github.com/LinusU/buffer-from) - [`Buffer.from`](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_from_array)
 - [cross-exit](https://github.com/Richienb/cross-exit) - [`process.exit`](https://nodejs.org/api/process.html#process_process_exit_code)
-
-## Browser Environment Only
-
-### JavaScript Features
-
-- [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
-- [webcrypto-shim](https://github.com/vibornoff/webcrypto-shim) - [`crypto`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
-
-### Other
-
-- [css-vars-ponyfill](https://github.com/jhildenbiddle/css-vars-ponyfill/) - [CSS variables/custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
