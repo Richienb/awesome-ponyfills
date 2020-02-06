@@ -89,3 +89,4 @@ Use these modules when looking to support older browsers or node versions withou
 - [tickedoff](https://github.com/jamiebuilds/tickedoff) - [`setImmediate`](https://nodejs.org/api/timers.html#timers_setimmediate_callback_args)
 - [buffer-from](https://github.com/LinusU/buffer-from) - [`Buffer.from`](https://nodejs.org/api/buffer.html#buffer_class_method_buffer_from_array)
 - [cross-exit](https://github.com/Richienb/cross-exit) - [`process.exit`](https://nodejs.org/api/process.html#process_process_exit_code)
+- [next-tick](https://github.com/medikoo/next-tick) - [`process.nextTick`](https://nodejs.org/api/process.html#process_process_nexttick_callback_args)
