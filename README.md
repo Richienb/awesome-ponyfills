@@ -4,10 +4,8 @@
   <a href="https://awesome.re">
 	  <img src="https://awesome.re/badge-flat.svg" alt="Awesome">
   </a>
-  <p>A curated list of awesome ponyfills for writing cross-platform and cross-browser code.</p>
+    <p><a href="https://ponyfill.com">Ponyfills</a> for writing cross-platform code.</p>
 </div>
-
-Use these modules when looking to support older browsers or node versions without polluting the prototype. See [ponyfill.com](https://ponyfill.com) for more info.
 
 ## Contents
 
