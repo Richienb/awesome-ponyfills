@@ -4,7 +4,7 @@
   <a href="https://awesome.re">
 	  <img src="https://awesome.re/badge-flat.svg" alt="Awesome">
   </a>
-    <p><a href="https://ponyfill.com">Ponyfills</a> for writing cross-platform code.</p>
+    <p>Like polyfills but without patching native APIs.</p>
 </div>
 
 ## Contents
