@@ -35,7 +35,7 @@
 ## Numbers
 
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) - [`BigInt`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
-- [is-nan](https://github.com/es-shims/is-nan) - [`Number.isNaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)
+- [number-is-nan](https://github.com/sindresorhus/number-is-nan) - [`Number.isNaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)
 
 ## Strings
 
