@@ -4,7 +4,7 @@
   <a href="https://awesome.re">
 	  <img src="https://awesome.re/badge-flat.svg" alt="Awesome">
   </a>
-    <p>Like polyfills but without patching native APIs.</p>
+    <p>Like polyfills but without overriding native APIs.</p>
 </div>
 
 ## Contents
