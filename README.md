@@ -73,6 +73,7 @@
 - [array-foreach](https://github.com/twada/array-foreach) - [`Array.prototype.forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [array-includes](https://github.com/es-shims/array-includes) - [`Array.prototype.includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - [indexof](https://github.com/component/indexof) - [`Array.prototype.indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf).
+- [isarray](https://github.com/juliangruber/isarray) - [`Array.isArray`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
 ## Browser Features
 
