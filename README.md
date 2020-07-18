@@ -88,6 +88,7 @@
 - [resize-observer-polyfill](https://github.com/que-etc/resize-observer-polyfill) - [`ResizeObserver`](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 - [webcrypto-shim](https://github.com/vibornoff/webcrypto-shim) - [`crypto`](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
 - [css-vars-ponyfill](https://github.com/jhildenbiddle/css-vars-ponyfill/) - [CSS variables/custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [raf](https://github.com/chrisdickinson/raf) - [`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
 
 ## Node.js Features
 
