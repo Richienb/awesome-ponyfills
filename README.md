@@ -4,7 +4,7 @@
   <a href="https://awesome.re">
 	  <img src="https://awesome.re/badge-flat.svg" alt="Awesome">
   </a>
-    <p><a href="https://ponyfill.com">Ponyfills</a> are like polyfills but without overriding native APIs. Polyfills patch a piece of functionality so that older environemts can support newer features whilst Ponyfills, on the other hand, provide functionality as standalone modules.</p>
+    <p><a href="https://ponyfill.com">Ponyfills</a> are like polyfills but without overriding native APIs. Polyfills patch a piece of functionality so that older environments can support newer features whilst Ponyfills, on the other hand, provide functionality as standalone modules.</p>
 </div>
 
 ## Contents
